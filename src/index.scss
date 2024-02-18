@@ -399,7 +399,7 @@ nav ul li a:hover  {
 div.hero {
   height: 350px;
   background-color: #b4c6f0;
-  background-image: url('/public/bg.png');
+  background-image: url('../public/bg.png');
   background-size: 400px;
   background-repeat: no-repeat;
   background-position: center bottom;
@@ -428,7 +428,6 @@ main {
 }
 
 .page-area {
-  max-width: 768px;
   display: inline-block;
 }
 
@@ -465,4 +464,17 @@ main article {
   main article {
       margin: 10px;
   }
+}
+svg{
+  overflow: visible;
+}
+
+.charts{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.pieChart{
+  min-height: 500px !important;
 }
